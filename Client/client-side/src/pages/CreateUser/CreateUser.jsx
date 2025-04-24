@@ -10,7 +10,7 @@ export default function CreateUser() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:4001/users/', {
+      await axios.post('http://localhost:4001/users/adduser', {
         name,
         password:pass ,
         email,
