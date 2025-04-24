@@ -42,7 +42,7 @@ export default function DeleteUser() {
                <center>
                <button onClick={() => handleDel(user.email)}>
                   Delete
-                </button>
+                </button> 
                </center>
               
             </li>
