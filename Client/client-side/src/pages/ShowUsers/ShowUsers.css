@@ -13,3 +13,6 @@ li{
     border-radius: 10px;
     max-width: max-content;
 }
+.role{
+    color: rgb(255, 131, 131);
+}

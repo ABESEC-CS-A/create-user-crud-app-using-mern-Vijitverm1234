@@ -23,7 +23,8 @@ const ShowUsers = () => {
           {user.map(user => (
             <li key={user._id}>
               <strong>Name : {user.name}</strong><br />
-              <strong> Email : {user.email}</strong>
+              <strong> Email : {user.email}</strong><br />
+              <strong className='role'> Role : {user.role}</strong>
             </li>
           ))}
         </ul>
